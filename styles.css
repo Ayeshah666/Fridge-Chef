@@ -1,0 +1,49 @@
+/* styles.css */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: none;
+}
+
+.card-header {
+    border-radius: 15px 15px 0 0 !important;
+}
+
+#ingredientList .badge {
+    font-size: 1rem;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+.btn-close {
+    font-size: 0.7rem;
+}
+
+#recipeResults .card {
+    transition: transform 0.3s;
+}
+
+#recipeResults .card:hover {
+    transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+/* Animation for new recipes */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+#recipeResults .card {
+    animation: fadeIn 0.5s ease-out;
+}
