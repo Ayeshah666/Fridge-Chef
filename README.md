@@ -18,11 +18,6 @@ Turn your leftover ingredients into delicious meals with AI-powered recipe sugge
 - Modern web browser (Chrome, Firefox, Edge)
 - OpenRouter API key (free tier available)
 
-### Installation
-```bash
-git clone https://github.com/Ayeshah666/Fridge-Chef.git
-cd fridgechef.
-
 ## 🛠️ Usage
 
 -Add your available ingredients
@@ -34,3 +29,10 @@ cd fridgechef.
 -Browse suggested recipes
 
 -Save your favorites
+
+### Installation
+```bash
+git clone https://github.com/Ayeshah666/Fridge-Chef.git
+cd fridgechef.
+
+
