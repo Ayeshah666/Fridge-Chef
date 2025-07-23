@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const ingredients = [];
-    const OPENROUTER_API_KEY = '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'; // Replace with your actual key
+    const OPENROUTER_API_KEY = 'your-api-key'; // Replace with your actual key
     const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions';
     
     // Add ingredient to list
